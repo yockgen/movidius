@@ -168,7 +168,7 @@ if __name__ == '__main__':
                          help="network name: SSD or TinyYolo." )
 
     parser.add_argument( '-g', '--graph', type=str,
-                         default='../../caffe/SSD_MobileNet/graph',
+                         default='/home/pi/movidius/ncappzoo/caffe/SSD_MobileNet/graph',
                          help="Absolute path to the neural network graph file." )
 
     parser.add_argument( '-i', '--image', type=str,
@@ -176,7 +176,7 @@ if __name__ == '__main__':
                          help="Absolute path to the image that needs to be inferred." )
 
     parser.add_argument( '-l', '--labels', type=str,
-                         default='../../caffe/SSD_MobileNet/labels.txt',
+                         default='/home/pi/movidius/ncappzoo/caffe/SSD_MobileNet/labels.txt',
                          help="Absolute path to labels file." )
 
     parser.add_argument( '-M', '--mean', type=float,
