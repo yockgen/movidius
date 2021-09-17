@@ -1,7 +1,13 @@
+# Raspbian OS  
+  - Kernel: 5.10.52-v7+
+  - Raspbian GNU/Linux 10 (buster)
+  
 # Raspberry PI 3 ncsdk setup 
 
 1. **Installing depedencies**    
-sudo apt-get install -y libusb-1.0-0-dev libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler libatlas-base-dev git automake byacc lsb-release cmake libgflags-dev libgoogle-glog-dev liblmdb-dev swig3.0 graphviz libxslt-dev libxml2-dev gfortran python3-dev python-pip python3-pip python3-setuptools python3-markdown python3-pillow python3-yaml python3-pygraphviz python3-h5py python3-nose python3-lxml python3-matplotlib python3-numpy python3-protobuf python3-dateutil python3-skimage python3-scipy python3-six python3-networkx python3-tk 
+    - sudo apt-get install -y libusb-1.0-0-dev libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler libatlas-base-dev git automake byacc lsb-release cmake libgflags-dev libgoogle-glog-dev liblmdb-dev swig3.0 graphviz libxslt-dev libxml2-dev gfortran python3-dev python-pip python3-pip python3-setuptools python3-markdown python3-pillow python3-yaml python3-pygraphviz python3-h5py python3-nose python3-lxml python3-matplotlib python3-numpy python3-protobuf python3-dateutil python3-skimage python3-scipy python3-six python3-networkx python3-tk
+    - sudo apt install python-opencv libjasper-dev libqtgui4 libqt4-test
+    - sudo pip3 install opencv-python
 
 2. **Compiling sdk**     
    - cd /home/pi/movidius/ncsdk/api/src  
@@ -14,7 +20,7 @@ python3 /home/pi/movidius/ncappzoo/apps/hello_ncs_py/hello_ncs.py
 3. **Testing sample app**   
 python3 /home/pi/movidius/ncappzoo/apps/object-detector/object-detector.py -i /home/pi/movidius/temp/test02.jpg   
 
-# Openvino 2020.3 setup on Ubuntu 18
+## Openvino 2020.3 setup on Ubuntu 18 (if you want to use Ubuntu instead of Raspbian)
 
 1. **Following Instruction below (movidius neural stick first generatuin only supported by openvino until 2020.3):**    
 https://docs.openvinotoolkit.org/2020.3/_docs_install_guides_installing_openvino_linux.html   
