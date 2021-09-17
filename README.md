@@ -1,6 +1,7 @@
 # Raspbian OS  
   - Kernel: 5.10.52-v7+
   - Raspbian GNU/Linux 10 (buster)
+  - https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip  
   
 # Raspberry PI 3 ncsdk setup 
 
