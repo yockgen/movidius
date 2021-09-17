@@ -15,7 +15,7 @@
    - make  
    - sudo make install     
 
-3. **Checking the USB Movidius neural stick function properly**    
+3. **Verifying USB Movidius neural stick functioning properly**    
 python3 /home/pi/movidius/ncappzoo/apps/hello_ncs_py/hello_ncs.py
 
 3. **Testing sample app**   
