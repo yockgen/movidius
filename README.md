@@ -21,7 +21,7 @@ python3 /home/pi/movidius/ncappzoo/apps/hello_ncs_py/hello_ncs.py
 4. **Testing sample app**   
 python3 /home/pi/movidius/ncappzoo/apps/object-detector/object-detector.py -i /home/pi/movidius/temp/test02.jpg   
 
-5. **Pi 3 known issue **
+5. ** Pi 3 known issue **
    - Network connection will disconnect intermitently after Movidius USB plugged in 
 
 ## Openvino 2020.3 setup on Ubuntu 18 (if you want to use Ubuntu instead of Raspbian)
