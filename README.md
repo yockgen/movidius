@@ -1,4 +1,4 @@
-#Hardware
+# Hardware
   - Intel® Neural Compute Stick 1
   - Raspberry Pi 2/3 
 
