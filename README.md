@@ -3,7 +3,7 @@
   - Raspbian GNU/Linux 10 (buster)
   - https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip  
   
-# Raspberry PI 3 ncsdk setup 
+# Raspberry Pi 2 ncsdk setup 
 
 1. **Installing depedencies**    
     - sudo apt-get install -y libusb-1.0-0-dev libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler libatlas-base-dev git automake byacc lsb-release cmake libgflags-dev libgoogle-glog-dev liblmdb-dev swig3.0 graphviz libxslt-dev libxml2-dev gfortran python3-dev python-pip python3-pip python3-setuptools python3-markdown python3-pillow python3-yaml python3-pygraphviz python3-h5py python3-nose python3-lxml python3-matplotlib python3-numpy python3-protobuf python3-dateutil python3-skimage python3-scipy python3-six python3-networkx python3-tk
@@ -18,8 +18,11 @@
 3. **Verifying USB Movidius neural stick functioning properly**    
 python3 /home/pi/movidius/ncappzoo/apps/hello_ncs_py/hello_ncs.py
 
-3. **Testing sample app**   
+4. **Testing sample app**   
 python3 /home/pi/movidius/ncappzoo/apps/object-detector/object-detector.py -i /home/pi/movidius/temp/test02.jpg   
+
+5. **Pi 3 known issue **
+   - Network connection will disconnect intermitently after Movidius USB plugged in 
 
 ## Openvino 2020.3 setup on Ubuntu 18 (if you want to use Ubuntu instead of Raspbian)
 
